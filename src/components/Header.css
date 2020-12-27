@@ -1,0 +1,23 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+}
