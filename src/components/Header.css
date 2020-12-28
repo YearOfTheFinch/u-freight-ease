@@ -1,23 +1,126 @@
+/* #region ---Header Globals--- */
 .header {
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   background-color: #131921;
   position: sticky;
   top: 0;
   z-index: 100;
-}
-
-.header__logo {
   color: white;
-}
-
-.header__nav {
-  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header__option {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
 }
+
+.header__optionLineOne {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #ccc;
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+}
+/* #endregion ---Header Globals--- */
+
+/* #region ---Header Left--- */
+.header__logo {
+  width: 130px;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.header__left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__location {
+  transform: translateY(4px);
+}
+
+.header__sendTo {
+  display: flex;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+/* #endregion ---Header Left--- */
+
+/* #region ---Header Center--- */
+.header__search {
+  /* height: 100%; */
+  /* width: 100%; */
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header__searchLeft {
+  background-color: #d1d1d1;
+  color: #727272;
+  border-radius: 4px 0 0 4px;
+  height: 40px;
+}
+
+.header__dropDown {
+}
+
+.header__searchCenter {
+  width: 100%;
+}
+
+.header__searchInput {
+  padding: 12px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchRight {
+  background-color: #febd69;
+  color: #131921;
+  border-radius: 0 4px 4px 0;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__searchIcon {
+  /* padding: 2px; */
+  /* height: 40px !important; */
+  /* width: 40px !important; */
+}
+/* #endregion ---Header Center--- */
+
+/* #region ---Header Right--- */
+.header__nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.header__basketCount {
+  margin: 0 10px;
+}
+/* #endregion ---Header Right--- */
