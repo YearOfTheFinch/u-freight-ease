@@ -73,9 +73,13 @@
   color: #727272;
   border-radius: 4px 0 0 4px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
 }
 
 .header__dropDown {
+  transform: translateY(2px);
 }
 
 .header__searchCenter {
@@ -93,7 +97,7 @@
   color: #131921;
   border-radius: 0 4px 4px 0;
   height: 40px;
-  width: 40px;
+  width: 46px;
   display: flex;
   align-items: center;
   justify-content: center;

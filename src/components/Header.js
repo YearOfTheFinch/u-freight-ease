@@ -31,7 +31,7 @@ function Header() {
           <input className="header__searchInput" type="text" />
         </div>
         <div className="header__searchRight">
-          <SearchIcon className="header__searchIcon" style={{ fontSize: 32 }} />
+          <SearchIcon className="header__searchIcon" style={{ fontSize: 30 }} />
         </div>
       </div>
 
